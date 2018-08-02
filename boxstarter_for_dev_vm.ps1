@@ -41,7 +41,7 @@ ForEach ($PackageName in $Packages)
 
 #--- Remove unwanted Store Apps ---
 
-Get-AppxPackage | Where-Object {$_.name -Match "3dbuilder|windowsalarms|windowscommunicationapps|windowscamera|officehub|skypeapp|getstarted|zunemusic|windowsmaps|solitairecollection|bingfinance|zunevideo|bingnews|onenote|people|windowsphone|photos|windowsstore|bingsports|soundrecorder|bingweather|xboxapp"} | Remove-AppxPackage -ea 0
+Get-AppxPackage | Where-Object {$_.name -Match "3dbuilder|windowsalarms|windowscommunicationapps|windowscamera|officehub|skypeapp|getstarted|zunemusic|windowsmaps|solitairecollection|bingfinance|zunevideo|bingnews|onenote|people|windowsphone|photos|bingsports|soundrecorder|bingweather|xboxapp"} | Remove-AppxPackage -ea 0
 
 #--- Define Store Apps to install ---
 $Apps = '9NBLGGH4Z1SP' # ShareX
