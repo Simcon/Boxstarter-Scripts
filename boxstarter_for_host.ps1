@@ -37,7 +37,7 @@ ForEach ($PackageName in $Packages)
 
 #Get-AppxPackage | Where-Object {$_.name -Match "3dbuilder|windowsalarms|windowscommunicationapps|windowscamera|officehub|skypeapp|getstarted|zunemusic|windowsmaps|solitairecollection|bingfinance|zunevideo|bingnews|onenote|people|windowsphone|photos|bingsports|soundrecorder|bingweather|xboxapp"} | Remove-AppxPackage -ea 0
 
-#--- Define Store Apps to install ---
+# #--- Define Store Apps to install ---
 # $Apps = '9wzdncrfj140',` # Twitter
 #         '9NCBCSZSJRSB',` # Spotify
 #         'CFQ7TTC0K5D7',` # Word
@@ -49,20 +49,9 @@ ForEach ($PackageName in $Packages)
 #         '9NBLGGH444L4',` # UBlock Origin Edge Extension
 #         '9NBLGGH4V7X0'   # LastPass Edge Extension
 
-$Apps = '9wzdncrfj140',`
-        '9NCBCSZSJRSB',`
-        'CFQ7TTC0K5D7',`
-        'CFQ7TTC0K5F3',`
-        'CFQ7TTC0K5CT',`
-        '9NBLGGH4XXVW',`
-        '9NBLGGH4Z1SP',`
-        '9NKSQGP7F2NH',`
-        '9NBLGGH444L4',`
-        '9NBLGGH4V7X0'
-
-#--- Install Store Apps ---
-ForEach ($AppId in $Apps)
-{Start-Process "ms-windows-store://pdp/?ProductId=$AppId"}
+# #--- Install Store Apps ---
+# ForEach ($AppId in $Apps)
+# {Start-Process "ms-windows-store://pdp/?ProductId=$AppId"}
 
 #--- Tools ---
 #code --install-extension msjsdiag.debugger-for-chrome
