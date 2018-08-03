@@ -43,7 +43,7 @@ $Apps = '9wzdncrfj140',` # Twitter
         'CFQ7TTC0K5D7',` # Word
         'CFQ7TTC0K5F3',` # Excel
         '9NBLGGH4Z1SP',` # ShareX
-    	'9NKSQGP7F2NH',` # WhatsApp
+        '9NKSQGP7F2NH',` # WhatsApp
         '9NBLGGH444L4',` # UBlock Origin Edge Extension
         '9NBLGGH4V7X0'   # LastPass Edge Extension
 
