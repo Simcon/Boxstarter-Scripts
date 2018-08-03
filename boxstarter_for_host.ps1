@@ -42,6 +42,8 @@ $Apps = '9wzdncrfj140',` # Twitter
         '9NCBCSZSJRSB',` # Spotify
         'CFQ7TTC0K5D7',` # Word
         'CFQ7TTC0K5F3',` # Excel
+        'CFQ7TTC0K5CT',` # Powerpoint
+        '9NBLGGH4XXVW',` # Trello
         '9NBLGGH4Z1SP',` # ShareX
         '9NKSQGP7F2NH',` # WhatsApp
         '9NBLGGH444L4',` # UBlock Origin Edge Extension
