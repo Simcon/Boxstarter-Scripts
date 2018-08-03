@@ -27,7 +27,9 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 #--- Define Packages to Install ---
 $Packages = 'firefox',`
             'GoogleChrome',`
-            'winrar'
+            'winrar',`
+            'obs-studio',`
+            'conemu'
 
 #--- Install Packages ---
 ForEach ($PackageName in $Packages)
