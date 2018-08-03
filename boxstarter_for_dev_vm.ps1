@@ -28,6 +28,7 @@ Add-AppxPackage -Path ~/Ubuntu.appx
 $Packages = 'docker-for-windows',`
             'firefox',`
             'github-desktop',`
+            'git',`
             'GoogleChrome',`
             'visualstudiocode',`
             'visualstudio2017community',`
