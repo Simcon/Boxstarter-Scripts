@@ -30,6 +30,7 @@ $Packages = 'docker-for-windows',`
             'github-desktop',`
             'git',`
             'GoogleChrome',`
+            'teamviewer',`
             'visualstudiocode',`
             'visualstudio2017community',`
             'visualstudio2017-workload-netweb',`

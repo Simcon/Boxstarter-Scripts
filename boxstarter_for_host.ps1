@@ -27,6 +27,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 #--- Define Packages to Install ---
 $Packages = 'firefox',`
             'GoogleChrome',`
+            'teamviewer',`
             'winrar'
 
 #--- Install Packages ---
