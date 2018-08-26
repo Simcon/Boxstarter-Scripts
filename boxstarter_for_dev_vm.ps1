@@ -30,6 +30,7 @@ $Packages = 'docker-for-windows',`
             'github-desktop',`
             'git',`
             'GoogleChrome',`
+            'nodejs.install',`
             'teamviewer',`
             'visualstudiocode',`
             'visualstudio2017community',`
