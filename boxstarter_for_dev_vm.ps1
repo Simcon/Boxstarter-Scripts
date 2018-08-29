@@ -32,7 +32,7 @@ $Packages = 'docker-for-windows',`
             'GoogleChrome',`
             'nodejs.install',`
             'teamviewer',`
-            'visualstudiocode',`
+            'vscode',`
             'visualstudio2017community',`
             'visualstudio2017-workload-netweb',`
             'visualstudio2017-workload-netcoretools',`
