@@ -28,7 +28,7 @@ Set-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\
 $Packages = 'firefox',`
             'GoogleChrome',`
             'winrar',`
-            'teamvewer',`
+            'teamviewer',`
             'obs-studio',`
             'conemu'
 
