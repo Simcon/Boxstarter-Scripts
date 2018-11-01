@@ -25,8 +25,7 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.appx -Us
 Add-AppxPackage -Path ~/Ubuntu.appx
 
 #--- Define Packages to Install ---
-$Packages = 'docker-for-windows',`
-            'firefox',`
+$Packages = 'firefox',`
             'github-desktop',`
             'git',`
             'GoogleChrome',`
@@ -37,6 +36,9 @@ $Packages = 'docker-for-windows',`
             'visualstudio2017-workload-netweb',`
             'visualstudio2017-workload-netcoretools',`
             'winrar'
+            
+# Before installing Docker you must run: Set-VMProcessor -VMName "<Your Virtual Machine Name>" -ExposeVirtualizationExtensions $true
+# 'docker-for-windows',`            
 
 #--- Install Packages ---
 ForEach ($PackageName in $Packages)
