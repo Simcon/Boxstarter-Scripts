@@ -25,7 +25,8 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.appx -Us
 Add-AppxPackage -Path ~/Ubuntu.appx
 
 #--- Define Packages to Install ---
-$Packages = 'firefox',`
+$Packages = 'conemu',`
+            'firefox',`
             'github-desktop',`
             'git',`
             'GoogleChrome',`
