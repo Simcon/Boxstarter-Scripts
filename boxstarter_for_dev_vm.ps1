@@ -33,9 +33,9 @@ $Packages = 'conemu',`
             'nodejs.install',`
             'teamviewer',`
             'vscode',`
-            'visualstudio2017community',`
-            'visualstudio2017-workload-netweb',`
-            'visualstudio2017-workload-netcoretools',`
+            #'visualstudio2017community',` Doesn't work reliably
+            #'visualstudio2017-workload-netweb',`
+            #'visualstudio2017-workload-netcoretools',`
             'winrar'
             
 # Before installing Docker you must run the following PowerShell commandlet on the host before powering on the VM: Set-VMProcessor -VMName "<Your Virtual Machine Name>" -ExposeVirtualizationExtensions $true
