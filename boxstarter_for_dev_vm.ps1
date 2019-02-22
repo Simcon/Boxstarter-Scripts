@@ -38,7 +38,7 @@ $Packages = 'conemu',`
             #'visualstudio2017-workload-netcoretools',`
             'winrar'
             
-# Before installing Docker you must run the following PowerShell commandlet on the host before powering on the VM: Set-VMProcessor -VMName "<Your Virtual Machine Name>" -ExposeVirtualizationExtensions $true
+# Before installing Docker you must run the following PowerShell commandlet ON THE HOST before powering on the VM: Set-VMProcessor -VMName "<Your Virtual Machine Name>" -ExposeVirtualizationExtensions $true
 # 'docker-for-windows',`            
 
 #--- Install Packages ---
