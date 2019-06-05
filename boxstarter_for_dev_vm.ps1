@@ -26,6 +26,7 @@ Add-AppxPackage -Path ~/Ubuntu.appx
 
 #--- Define Packages to Install ---
 $Packages = 'conemu',`
+            'docker-desktop',`
             'firefox',`
             'github-desktop',`
             'git',`
